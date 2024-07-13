@@ -101,7 +101,7 @@ class _MainScreenState extends State<MainScreen> {
                   context: context,
                   builder: (context) {
                     return AlertDialog(
-                      title: Text('선택 결과'),
+                      title: Text('Choice'),
                       content: Column(
                         mainAxisSize: MainAxisSize.min,
                         children: [
